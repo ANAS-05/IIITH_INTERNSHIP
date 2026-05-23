@@ -55,3 +55,24 @@ car, truck, person, airplane, bus, sports ball, bottle, traffic light, fire hydr
 | `segmented_video.mp4` | Segmented frames stitched into video (no audio) |
 | `final_segmented_output.mp4` | Final video with segmentation masks and music |
 | `new_audio.mp3` | New music track for this task |
+| `week3_task2.py` | Script for vstack pipeline: raw + detection + segmentation |
+| `input_video.mp4` | Downloaded Shibuya crossing video (640x360, 40s) |
+| `final_stacked_output.mp4` | Final vstacked video (640x1080, 3fps) with new audio |
+
+## Task 2 — Stacked Detection & Segmentation Video
+
+### Goal
+Download a busy-street video with COCO-detectable objects, extract 120 frames, run YOLO detection and segmentation in parallel, then vertically stack the three video streams (raw → detected → segmented) with a new audio track.
+
+### Steps
+1. Downloaded 40s Shibuya crossing YouTube video at 640x360 using `yt-dlp`
+2. Extracted 120 frames (every 10th from ~30fps → 3fps output)
+3. Ran YOLO26n detection on extracted frames → bounding boxes + labels
+4. Ran YOLO26n-seg segmentation on extracted frames → pixel-level masks
+5. Created three separate 640x360 videos (raw, detected, segmented) at 3fps
+6. Vertically stacked all three via FFmpeg `vstack` → 640x1080
+7. Merged `new_audio.mp3` as the soundtrack
+
+### Output
+- `final_stacked_output.mp4` — 640x1080, 3fps, 40s, H.264 + AAC, ~12MB
+- Top row: raw frames, Middle: object-detected frames, Bottom: segmented frames

@@ -3,3 +3,4 @@ summer_env/
 __pycache__/
 *.pyc
 notes.txt
+datasets/
