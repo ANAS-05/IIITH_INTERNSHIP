@@ -1,9 +1,0 @@
-the tasks given were in this order 
-
-01 Week: Lets start with a few tasks. Our first task is to extract multiple images from a video using "ffmpeg". Download a youtube video of short duration, and extract multiple images from the video, using ffmpeg. (In a linux environment this is pretty simple.) Search Google on how to use "ffmpeg" for extracting multiple images from videos. Once you have done this, please post two or three photographs from the video stream, and post the link to youtube video that you have used.
-
-01 Week (Task 2): Good to see the output. In the first task you downloaded a video from YouTube (yt-dlp - utility in Linux) and chopped it into frames of images using ffmpeg. Now, you should repeat the process once again, generating some 30 frames per second on a 1 minute continuous portion of the video (30x60 = 1800 images) creating around 1800 images. These 1800 images are to be re-converted into a video of 1 minute duration at frame rate of 30 (ffmpeg can be used here too). Upload the video and share the link to the video you created from images.
-
-01 Week (Task 3): This is awesome... the pace at which you are submitting is extremely good. Please keep it up. (We would require that you create a github account, and keep logging these events and partial results there. This will help my coordinators assess your timely submissions in this internship program. It will also help your future potential collaborators/institutes to identify your work carried out with github's timestamp on submissions.) In Task 03, please identify a song https://pixabay.com/music/search/1%20minute/ from any public portal, clip it to one minute duration using some utility like audacity, and merge audio track with your video (using ffmpeg) you just created from Task 02.. Please upload the video, and share the link...  (For others, who are struggling, please post your difficulties in the discussion thread - there would be many who might guide you) Cheers !!
-
-
