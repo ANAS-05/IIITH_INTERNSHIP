@@ -4,3 +4,4 @@ __pycache__/
 *.pyc
 notes.txt
 datasets/
+week3/week3_task2.py

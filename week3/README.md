@@ -55,7 +55,6 @@ car, truck, person, airplane, bus, sports ball, bottle, traffic light, fire hydr
 | `segmented_video.mp4` | Segmented frames stitched into video (no audio) |
 | `final_segmented_output.mp4` | Final video with segmentation masks and music |
 | `new_audio.mp3` | New music track for this task |
-| `week3_task2.py` | Script for vstack pipeline: raw + detection + segmentation |
 | `input_video.mp4` | Downloaded Shibuya crossing video (640x360, 40s) |
 | `final_stacked_output.mp4` | Final vstacked video (640x1080, 3fps) with new audio |
 
