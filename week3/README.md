@@ -12,13 +12,35 @@ Run semantic/instance segmentation on video frames using YOLO26, stitch segmente
 
 ## Performance Metrics
 
+## Performance Metrics — Detection
+
 | Metric | Value |
 |--------|-------|
-| Model | `yolo26n-seg.pt` (pretrained on COCO) |
+| Precision | 0.798 |
+| Recall | 0.672 |
+| mAP50 | 0.870 |
+| mAP50-95 | 0.633 |
+
+## Performance Metrics — Segmentation
+
+| Metric | Value |
+|--------|-------|
+| Precision | 0.761 |
+| Recall | 0.657 |
+| mAP50 | 0.838 |
+| mAP50-95 | 0.571 |
+
+*Validated on coco8-seg dataset (YOLO26n-seg at 640px)*
+
+## Observed Inference Speed
+
+| Metric | Value |
+|--------|-------|
 | Avg inference time | ~115ms per frame |
 | Avg preprocess | ~2.5ms |
 | Avg postprocess | ~2.5ms |
 | Total per frame | ~120ms |
+| Input resolution | 384x640 |
 | Frames processed | 181 (every 10th of 1801) |
 | Frames with detections | ~120 (66%) |
 | Output duration | 60.3 seconds at 3 fps |
