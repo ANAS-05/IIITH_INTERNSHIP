@@ -26,4 +26,4 @@
 | `final_task3.mp4` | Final video with audio merged |
 | `audio.mp3` | Music track from Pixabay |
 | `output_frame_*.jpg` | Sample extracted frames |
-| `notes.txt` | Original task instructions |
+
