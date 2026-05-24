@@ -1,4 +1,4 @@
-# IITH Internship — Computer Vision with YOLO
+# IIIT Internship — Computer Vision with YOLO
 
 End-to-end computer vision pipeline: video processing, object detection, segmentation, custom dataset creation, and YOLO training.
 
