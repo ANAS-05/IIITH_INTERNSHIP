@@ -139,7 +139,7 @@ Ran the trained model (`best.pt`) on all **460 test images**.
 ### Final Output
 | Property | Value |
 |----------|-------|
-| File | `week5/test_video_final.mp4` |
+| File | `week5/person_vehicle_detection_inference.mp4` |
 | Resolution | 384×216 |
 | Frame Rate | 10 fps |
 | Duration | 46 seconds |
@@ -154,7 +154,7 @@ Ran the trained model (`best.pt`) on all **460 test images**.
 |------|-------------|
 | `week4/report.md` | 04WT1# report on dataset meta-configuration |
 | `week5/best.pt` | Trained model weights (epoch 52, mAP50=0.843) |
-| `week5/test_video_final.mp4` | Final test prediction video with audio |
+| `week5/person_vehicle_detection_inference.mp4` | Final test prediction video with audio |
 | `week5/README.md` | This file |
 | `dataset/` | Original labeled dataset (1920×1080) |
 | `dataset_scaled/` | Scaled dataset (384×216) with labels, YAML, train/val txts |
