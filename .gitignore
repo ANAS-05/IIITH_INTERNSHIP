@@ -5,3 +5,6 @@ __pycache__/
 notes.txt
 datasets/
 week3/week3_task2.py
+label_studio_env/
+dataset/
+dataset_scaled/
