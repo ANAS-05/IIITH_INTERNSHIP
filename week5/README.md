@@ -148,6 +148,12 @@ Ran the trained model (`best.pt`) on all **460 test images**.
 
 ---
 
+## Annotation Screenshot
+
+![Label Studio Annotation](label_studio_annotation.png)
+
+*Annotating person and vehicle bounding boxes using Label Studio.*
+
 ## Files
 
 | File | Description |
